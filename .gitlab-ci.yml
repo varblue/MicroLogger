@@ -8,8 +8,11 @@
 
 # SAST Configuration
 stages:
-- test
+  - test
+  - build
+  - deploy
 sast:
   stage: test
 include:
-- template: Security/SAST.gitlab-ci.yml
+  - template: Security/SAST.gitlab-ci.yml
+  - template: Go.gitlab-ci.yml
