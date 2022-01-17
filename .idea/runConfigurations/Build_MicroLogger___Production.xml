@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Build MicroLogger - Production" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="MicroLogger" />
+    <working_directory value="$PROJECT_DIR$" />
+    <go_parameters value="-ldflags &quot;-s -w&quot; -o out/MicroLogger" />
+    <kind value="DIRECTORY" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$" />
+    <output_directory value="out/" />
+    <option name="run" value="false" />
+    <method v="2" />
+  </configuration>
+</component>
