@@ -17,5 +17,7 @@ These are in a type called LoggerLevel.
 	Log(FATAL, "This is a log entry with the severity level 'FATAL'")
 
 The color for the FATAL logger level can be found in FatalColor.
+
+More information, along with detailed usage examples can be found at https://gitlab.com/tesseractge/MicroLogger/-/wikis/home
 */
 package main

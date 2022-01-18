@@ -3,26 +3,14 @@
 
 ![Version](https://img.shields.io/badge/Version-v1.0.0-success?style=for-the-badge) [![Go Reference](https://pkg.go.dev/badge//gitlab.com/tesseractge/MicroLogger.svg)](https://pkg.go.dev//gitlab.com/tesseractge/MicroLogger)
 
+## Demo
+[![asciicast](https://asciinema.org/a/462187.svg)](https://asciinema.org/a/462187)
+
 ## Installation
 You can install MicroLogger in your project using `go get gitlab.com/tesseractge/MicroLogger`
 
 ## Usage
-You can use the library by calling the Log function
-```go
-package main
-
-import l "gitlab.com/tesseractge/MicroLogger"
-
-func main() {
-	l.Log(l.OK, "This is a log entry with the severity level 'OK'")
-	l.Log(l.INFO, "This is a log entry with the severity level 'INFO'")
-	l.Log(l.EXTENSION, "This is a log entry with the severity level 'EXTENSION'")
-	l.Log(l.DEBUG, "This is a log entry with the severity level 'DEBUG'")
-	l.Log(l.WARN, "This is a log entry with the severity level 'WARN'")
-	l.Log(l.FAILED, "This is a log entry with the severity level 'FAILED'")
-	l.Log(l.FATAL, "This is a log entry with the severity level 'FATAL'")
-}
-```
+You can find more information, along with detailed usage examples at [our wiki](https://gitlab.com/tesseractge/MicroLogger/-/wikis/home)
 
 ## Support
 You can get support by [emailing me](mailto:hello@quinnlane.dev?subject=%E2%9D%93%20Support%20-%20MicroLogger) or contacting me through [Discord](https://discord.com/users/422415365742788618) (Please make sure you let me know why you are there, so I don't mark you as spam! Thanks!)
