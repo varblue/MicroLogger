@@ -1,7 +1,7 @@
 # MicroLogger
 📄 A tiny logger using the builtin log library and a color library, written in [Go](https://go.dev/)
 
-![Version](https://img.shields.io/badge/Version-v1.0.0-success?style=for-the-badge) [![Go Reference](https://pkg.go.dev/badge//gitlab.com/tesseractge/MicroLogger.svg)](https://pkg.go.dev//gitlab.com/tesseractge/MicroLogger)
+![Version](https://img.shields.io/badge/Version-v1.0.1-success?style=for-the-badge) [![Go Reference](https://pkg.go.dev/badge//gitlab.com/tesseractge/MicroLogger.svg)](https://pkg.go.dev//gitlab.com/tesseractge/MicroLogger)
 
 ## Demo
 [![asciicast](https://asciinema.org/a/462187.svg)](https://asciinema.org/a/462187)

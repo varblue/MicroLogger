@@ -47,13 +47,3 @@ func Log(level LoggerLevel, log string) {
 		break
 	}
 }
-
-func main() {
-	Log(OK, "This is a log entry with the severity level 'OK'")
-	Log(INFO, "This is a log entry with the severity level 'INFO'")
-	Log(EXTENSION, "This is a log entry with the severity level 'EXTENSION'")
-	Log(DEBUG, "This is a log entry with the severity level 'DEBUG'")
-	Log(WARN, "This is a log entry with the severity level 'WARN'")
-	Log(FAILED, "This is a log entry with the severity level 'FAILED'")
-	Log(FATAL, "This is a log entry with the severity level 'FATAL'")
-}
